@@ -1,0 +1,16 @@
+[02-Oct-2017 21:58:08 UTC] PHP Fatal error:  Conexion::execute(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;ADODB_postgres8&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /var/www/html/gestion_dev/conexion/Conexion.class.php on line 36
+[02-Oct-2017 21:58:08 UTC] PHP Stack trace:
+[02-Oct-2017 21:58:08 UTC] PHP   1. {main}() /var/www/html/gestion_dev/index.php:0
+[02-Oct-2017 21:58:08 UTC] PHP   2. Conexion->execute() /var/www/html/gestion_dev/index.php:10
+[02-Oct-2017 22:02:02 UTC] PHP Fatal error:  Conexion::execute(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;ADODB_postgres8&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /var/www/html/gestion_dev/conexion/Conexion.class.php on line 41
+[02-Oct-2017 22:02:02 UTC] PHP Stack trace:
+[02-Oct-2017 22:02:02 UTC] PHP   1. {main}() /var/www/html/gestion_dev/index.php:0
+[02-Oct-2017 22:02:02 UTC] PHP   2. Conexion->execute() /var/www/html/gestion_dev/index.php:10
+[02-Oct-2017 22:06:35 UTC] PHP Fatal error:  Conexion::execute(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;ADODB_postgres8&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /var/www/html/gestion_dev/conexion/Conexion.class.php on line 42
+[02-Oct-2017 22:06:35 UTC] PHP Stack trace:
+[02-Oct-2017 22:06:35 UTC] PHP   1. {main}() /var/www/html/gestion_dev/index.php:0
+[02-Oct-2017 22:06:35 UTC] PHP   2. Conexion->execute() /var/www/html/gestion_dev/index.php:10
+[02-Oct-2017 22:06:51 UTC] PHP Fatal error:  Conexion::execute(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;ADODB_postgres8&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /var/www/html/gestion_dev/conexion/Conexion.class.php on line 42
+[02-Oct-2017 22:06:51 UTC] PHP Stack trace:
+[02-Oct-2017 22:06:51 UTC] PHP   1. {main}() /var/www/html/gestion_dev/index.php:0
+[02-Oct-2017 22:06:51 UTC] PHP   2. Conexion->execute() /var/www/html/gestion_dev/index.php:10

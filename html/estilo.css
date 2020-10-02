@@ -1,0 +1,17 @@
+span.arrow {
+    height:17px;
+    background: url('http://i45.tinypic.com/f9ifz6.png') no-repeat center left;
+    top:4px;
+}
+label.error {
+    color: #cc5965;
+    display: inline-block;
+    margin-left: 5px;
+}
+.form-control.error {
+    background: rgb(251, 227, 228);
+    border: 1px solid #fbc2c4;
+    color: #8a1f11;
+    float: right;
+    margin-right: 10px;
+}
